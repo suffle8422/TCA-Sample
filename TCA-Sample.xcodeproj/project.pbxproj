@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE8A838A2AB3675100346C10 /* ContactsFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8A83892AB3675100346C10 /* ContactsFeature.swift */; };
+		BE8A838D2AB3691000346C10 /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8A838C2AB3691000346C10 /* ContactsView.swift */; };
+		BE8A83902AB36DDA00346C10 /* AddContactFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8A838F2AB36DDA00346C10 /* AddContactFeature.swift */; };
+		BE8A83922AB36DE700346C10 /* AddContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8A83912AB36DE700346C10 /* AddContactView.swift */; };
 		D47FDEA72AB1E92100ECBEC5 /* TCA_SampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47FDEA62AB1E92100ECBEC5 /* TCA_SampleApp.swift */; };
 		D47FDEAB2AB1E92200ECBEC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D47FDEAA2AB1E92200ECBEC5 /* Assets.xcassets */; };
 		D47FDEAE2AB1E92200ECBEC5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D47FDEAD2AB1E92200ECBEC5 /* Preview Assets.xcassets */; };
@@ -37,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BE8A83892AB3675100346C10 /* ContactsFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsFeature.swift; sourceTree = "<group>"; };
+		BE8A838C2AB3691000346C10 /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
+		BE8A838F2AB36DDA00346C10 /* AddContactFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactFeature.swift; sourceTree = "<group>"; };
+		BE8A83912AB36DE700346C10 /* AddContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactView.swift; sourceTree = "<group>"; };
 		D47FDEA32AB1E92100ECBEC5 /* TCA-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TCA-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D47FDEA62AB1E92100ECBEC5 /* TCA_SampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCA_SampleApp.swift; sourceTree = "<group>"; };
 		D47FDEAA2AB1E92200ECBEC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -78,6 +86,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BE8A83882AB3668800346C10 /* CounterFeture */ = {
+			isa = PBXGroup;
+			children = (
+				D47FDED52AB1EAE100ECBEC5 /* CounterView.swift */,
+				D47FDED32AB1E9CE00ECBEC5 /* CounterFeature.swift */,
+				D4A9EA952AB2FEB2008BA8A5 /* NumberFactClient.swift */,
+			);
+			path = CounterFeture;
+			sourceTree = "<group>";
+		};
+		BE8A838B2AB3676100346C10 /* ContactsFeature */ = {
+			isa = PBXGroup;
+			children = (
+				BE8A838E2AB36DBF00346C10 /* AddContactFeature */,
+				BE8A83892AB3675100346C10 /* ContactsFeature.swift */,
+				BE8A838C2AB3691000346C10 /* ContactsView.swift */,
+			);
+			path = ContactsFeature;
+			sourceTree = "<group>";
+		};
+		BE8A838E2AB36DBF00346C10 /* AddContactFeature */ = {
+			isa = PBXGroup;
+			children = (
+				BE8A838F2AB36DDA00346C10 /* AddContactFeature.swift */,
+				BE8A83912AB36DE700346C10 /* AddContactView.swift */,
+			);
+			path = AddContactFeature;
+			sourceTree = "<group>";
+		};
 		D47FDE9A2AB1E92100ECBEC5 = {
 			isa = PBXGroup;
 			children = (
@@ -101,13 +138,12 @@
 		D47FDEA52AB1E92100ECBEC5 /* TCA-Sample */ = {
 			isa = PBXGroup;
 			children = (
-				D47FDED72AB1F4FC00ECBEC5 /* Info.plist */,
 				D47FDEA62AB1E92100ECBEC5 /* TCA_SampleApp.swift */,
-				D47FDED52AB1EAE100ECBEC5 /* CounterView.swift */,
-				D47FDED32AB1E9CE00ECBEC5 /* CounterFeature.swift */,
+				BE8A83882AB3668800346C10 /* CounterFeture */,
+				BE8A838B2AB3676100346C10 /* ContactsFeature */,
+				D47FDED72AB1F4FC00ECBEC5 /* Info.plist */,
 				D47FDEAA2AB1E92200ECBEC5 /* Assets.xcassets */,
 				D47FDEAC2AB1E92200ECBEC5 /* Preview Content */,
-				D4A9EA952AB2FEB2008BA8A5 /* NumberFactClient.swift */,
 			);
 			path = "TCA-Sample";
 			sourceTree = "<group>";
@@ -276,7 +312,11 @@
 				D47FDED42AB1E9CE00ECBEC5 /* CounterFeature.swift in Sources */,
 				D47FDEA72AB1E92100ECBEC5 /* TCA_SampleApp.swift in Sources */,
 				D47FDED62AB1EAE100ECBEC5 /* CounterView.swift in Sources */,
+				BE8A838D2AB3691000346C10 /* ContactsView.swift in Sources */,
 				D4A9EA962AB2FEB2008BA8A5 /* NumberFactClient.swift in Sources */,
+				BE8A838A2AB3675100346C10 /* ContactsFeature.swift in Sources */,
+				BE8A83902AB36DDA00346C10 /* AddContactFeature.swift in Sources */,
+				BE8A83922AB36DE700346C10 /* AddContactView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
