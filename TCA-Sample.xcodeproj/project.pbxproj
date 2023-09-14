@@ -16,6 +16,8 @@
 		D47FDED22AB1E93A00ECBEC5 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = D47FDED12AB1E93A00ECBEC5 /* ComposableArchitecture */; };
 		D47FDED42AB1E9CE00ECBEC5 /* CounterFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47FDED32AB1E9CE00ECBEC5 /* CounterFeature.swift */; };
 		D47FDED62AB1EAE100ECBEC5 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47FDED52AB1EAE100ECBEC5 /* CounterView.swift */; };
+		D47FDED92AB2DE6000ECBEC5 /* CounterFeatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47FDED82AB2DE6000ECBEC5 /* CounterFeatureTests.swift */; };
+		D4A9EA962AB2FEB2008BA8A5 /* NumberFactClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A9EA952AB2FEB2008BA8A5 /* NumberFactClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		D47FDED32AB1E9CE00ECBEC5 /* CounterFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterFeature.swift; sourceTree = "<group>"; };
 		D47FDED52AB1EAE100ECBEC5 /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
 		D47FDED72AB1F4FC00ECBEC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D47FDED82AB2DE6000ECBEC5 /* CounterFeatureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterFeatureTests.swift; sourceTree = "<group>"; };
+		D4A9EA952AB2FEB2008BA8A5 /* NumberFactClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberFactClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,7 @@
 				D47FDED32AB1E9CE00ECBEC5 /* CounterFeature.swift */,
 				D47FDEAA2AB1E92200ECBEC5 /* Assets.xcassets */,
 				D47FDEAC2AB1E92200ECBEC5 /* Preview Content */,
+				D4A9EA952AB2FEB2008BA8A5 /* NumberFactClient.swift */,
 			);
 			path = "TCA-Sample";
 			sourceTree = "<group>";
@@ -121,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				D47FDEB72AB1E92200ECBEC5 /* TCA_SampleTests.swift */,
+				D47FDED82AB2DE6000ECBEC5 /* CounterFeatureTests.swift */,
 			);
 			path = "TCA-SampleTests";
 			sourceTree = "<group>";
@@ -273,6 +279,7 @@
 				D47FDED42AB1E9CE00ECBEC5 /* CounterFeature.swift in Sources */,
 				D47FDEA72AB1E92100ECBEC5 /* TCA_SampleApp.swift in Sources */,
 				D47FDED62AB1EAE100ECBEC5 /* CounterView.swift in Sources */,
+				D4A9EA962AB2FEB2008BA8A5 /* NumberFactClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D47FDEB82AB1E92200ECBEC5 /* TCA_SampleTests.swift in Sources */,
+				D47FDED92AB2DE6000ECBEC5 /* CounterFeatureTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
